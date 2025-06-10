@@ -15,10 +15,11 @@
 
 <div class="node">
   <a name="gui.py"></a>
-  <a target="code" href="/Users/ayan/Downloads/forensic_tool/gui.py" type="text/plain"><tt>gui.py</tt></a>
+  <a target="code" href="/Users/ayan/Downloads/forensic/gui.py" type="text/plain"><tt>gui.py</tt></a>
 <span class="moduletype">Script</span>  <div class="import">
 imports:
-    <a href="#PyQt5.QtGui">PyQt5.QtGui</a>
+    <a href="#PyQt5.QtCore">PyQt5.QtCore</a>
+ &#8226;   <a href="#PyQt5.QtGui">PyQt5.QtGui</a>
  &#8226;   <a href="#PyQt5.QtWidgets">PyQt5.QtWidgets</a>
  &#8226;   <a href="#_collections_abc">_collections_abc</a>
  &#8226;   <a href="#_weakrefset">_weakrefset</a>
@@ -26,7 +27,6 @@ imports:
  &#8226;   <a href="#codecs">codecs</a>
  &#8226;   <a href="#collections">collections</a>
  &#8226;   <a href="#copyreg">copyreg</a>
- &#8226;   <a href="#csv">csv</a>
  &#8226;   <a href="#encodings">encodings</a>
  &#8226;   <a href="#encodings.aliases">encodings.aliases</a>
  &#8226;   <a href="#encodings.ascii">encodings.ascii</a>
@@ -297,6 +297,7 @@ imported by:
     <a href="#PyQt5">PyQt5</a>
  &#8226;   <a href="#PyQt5.QtGui">PyQt5.QtGui</a>
  &#8226;   <a href="#PyQt5.QtWidgets">PyQt5.QtWidgets</a>
+ &#8226;   <a href="#gui.py">gui.py</a>
 
   </div>
 
@@ -1842,8 +1843,7 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#gui.py">gui.py</a>
- &#8226;   <a href="#importlib.metadata">importlib.metadata</a>
+    <a href="#importlib.metadata">importlib.metadata</a>
 
   </div>
 
@@ -6321,7 +6321,7 @@ imported by:
 
 <div class="node">
   <a name="main"></a>
-  <a target="code" href="/Users/ayan/Downloads/forensic_tool/main.py" type="text/plain"><tt>main</tt></a>
+  <a target="code" href="/Users/ayan/Downloads/forensic/main.py" type="text/plain"><tt>main</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#parser">parser</a>
@@ -6331,6 +6331,7 @@ imports:
  &#8226;   <a href="#parser.network">parser.network</a>
  &#8226;   <a href="#parser.processes">parser.processes</a>
  &#8226;   <a href="#utils">utils</a>
+ &#8226;   <a href="#utils.attack_detection">utils.attack_detection</a>
  &#8226;   <a href="#utils.html_report">utils.html_report</a>
  &#8226;   <a href="#utils.report">utils.report</a>
 
@@ -6561,6 +6562,7 @@ imported by:
  &#8226;   <a href="#tarfile">tarfile</a>
  &#8226;   <a href="#tempfile">tempfile</a>
  &#8226;   <a href="#threading">threading</a>
+ &#8226;   <a href="#utils.html_report">utils.html_report</a>
  &#8226;   <a href="#webbrowser">webbrowser</a>
  &#8226;   <a href="#zipfile">zipfile</a>
  &#8226;   <a href="#zipfile._path.glob">zipfile._path.glob</a>
@@ -6591,7 +6593,7 @@ imported by:
 
 <div class="node">
   <a name="parser"></a>
-  <a target="code" href="/Users/ayan/Downloads/forensic_tool/parser/__init__.py" type="text/plain"><tt>parser</tt></a>
+  <a target="code" href="/Users/ayan/Downloads/forensic/parser/__init__.py" type="text/plain"><tt>parser</tt></a>
 <span class="moduletype">Package</span>  <div class="import">
 imports:
     <a href="#copyreg">copyreg</a>
@@ -6617,7 +6619,7 @@ imported by:
 
 <div class="node">
   <a name="parser.filesystem"></a>
-  <a target="code" href="/Users/ayan/Downloads/forensic_tool/parser/filesystem.py" type="text/plain"><tt>parser.filesystem</tt></a>
+  <a target="code" href="/Users/ayan/Downloads/forensic/parser/filesystem.py" type="text/plain"><tt>parser.filesystem</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#os">os</a>
@@ -6635,7 +6637,7 @@ imported by:
 
 <div class="node">
   <a name="parser.indicators"></a>
-  <a target="code" href="/Users/ayan/Downloads/forensic_tool/parser/indicators.py" type="text/plain"><tt>parser.indicators</tt></a>
+  <a target="code" href="/Users/ayan/Downloads/forensic/parser/indicators.py" type="text/plain"><tt>parser.indicators</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#json">json</a>
@@ -6654,7 +6656,7 @@ imported by:
 
 <div class="node">
   <a name="parser.logs"></a>
-  <a target="code" href="/Users/ayan/Downloads/forensic_tool/parser/logs.py" type="text/plain"><tt>parser.logs</tt></a>
+  <a target="code" href="/Users/ayan/Downloads/forensic/parser/logs.py" type="text/plain"><tt>parser.logs</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#os">os</a>
@@ -6672,7 +6674,7 @@ imported by:
 
 <div class="node">
   <a name="parser.network"></a>
-  <a target="code" href="/Users/ayan/Downloads/forensic_tool/parser/network.py" type="text/plain"><tt>parser.network</tt></a>
+  <a target="code" href="/Users/ayan/Downloads/forensic/parser/network.py" type="text/plain"><tt>parser.network</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#parser">parser</a>
@@ -6692,12 +6694,11 @@ imported by:
 
 <div class="node">
   <a name="parser.processes"></a>
-  <a target="code" href="/Users/ayan/Downloads/forensic_tool/parser/processes.py" type="text/plain"><tt>parser.processes</tt></a>
+  <a target="code" href="/Users/ayan/Downloads/forensic/parser/processes.py" type="text/plain"><tt>parser.processes</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#collections">collections</a>
  &#8226;   <a href="#parser">parser</a>
- &#8226;   <a href="#psutil">psutil</a>
 
   </div>
   <div class="import">
@@ -6938,7 +6939,6 @@ imports:
   <div class="import">
 imported by:
     <a href="#parser.network">parser.network</a>
- &#8226;   <a href="#parser.processes">parser.processes</a>
  &#8226;   <a href="#psutil">psutil</a>
  &#8226;   <a href="#psutil._common">psutil._common</a>
  &#8226;   <a href="#psutil._psosx">psutil._psosx</a>
@@ -7256,6 +7256,7 @@ imported by:
  &#8226;   <a href="#tokenize">tokenize</a>
  &#8226;   <a href="#typing">typing</a>
  &#8226;   <a href="#urllib.parse">urllib.parse</a>
+ &#8226;   <a href="#utils.attack_detection">utils.attack_detection</a>
  &#8226;   <a href="#warnings">warnings</a>
  &#8226;   <a href="#zipfile._path">zipfile._path</a>
  &#8226;   <a href="#zipfile._path.glob">zipfile._path.glob</a>
@@ -8177,7 +8178,7 @@ imported by:
 
 <div class="node">
   <a name="utils"></a>
-  <a target="code" href="/Users/ayan/Downloads/forensic_tool/utils/__init__.py" type="text/plain"><tt>utils</tt></a>
+  <a target="code" href="/Users/ayan/Downloads/forensic/utils/__init__.py" type="text/plain"><tt>utils</tt></a>
 <span class="moduletype">Package</span>  <div class="import">
 imports:
     <a href="#utils.report">utils.report</a>
@@ -8186,6 +8187,7 @@ imports:
   <div class="import">
 imported by:
     <a href="#main">main</a>
+ &#8226;   <a href="#utils.attack_detection">utils.attack_detection</a>
  &#8226;   <a href="#utils.html_report">utils.html_report</a>
  &#8226;   <a href="#utils.report">utils.report</a>
 
@@ -8194,11 +8196,29 @@ imported by:
 </div>
 
 <div class="node">
-  <a name="utils.html_report"></a>
-  <a target="code" href="/Users/ayan/Downloads/forensic_tool/utils/html_report.py" type="text/plain"><tt>utils.html_report</tt></a>
+  <a name="utils.attack_detection"></a>
+  <a target="code" href="/Users/ayan/Downloads/forensic/utils/attack_detection.py" type="text/plain"><tt>utils.attack_detection</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
-    <a href="#utils">utils</a>
+    <a href="#re">re</a>
+ &#8226;   <a href="#utils">utils</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#main">main</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="utils.html_report"></a>
+  <a target="code" href="/Users/ayan/Downloads/forensic/utils/html_report.py" type="text/plain"><tt>utils.html_report</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#os">os</a>
+ &#8226;   <a href="#utils">utils</a>
 
   </div>
   <div class="import">
@@ -8211,7 +8231,7 @@ imported by:
 
 <div class="node">
   <a name="utils.report"></a>
-  <a target="code" href="/Users/ayan/Downloads/forensic_tool/utils/report.py" type="text/plain"><tt>utils.report</tt></a>
+  <a target="code" href="/Users/ayan/Downloads/forensic/utils/report.py" type="text/plain"><tt>utils.report</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#utils">utils</a>
